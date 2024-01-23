@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: dimgray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+}
+
+.outerdabba{
+    height: 350px;
+    width: 350px;
+    
+    display: flex;
+}
+
+.dtitle{
+    font-size: 25px;
+    gap: 12px;
+    padding-bottom: 13px;
+}
+
+.nmbr{
+    display: flex;
+    font-size: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mbtn{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    border-right: 1px solid #bfbfbf;
+}
+
+.pbtn{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    border-left: 1px solid #bfbfbf;
+}
+
+.nom{
+    padding-left: 19px;
+    padding-right: 19px;
+}
